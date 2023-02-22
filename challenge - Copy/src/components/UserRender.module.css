@@ -1,0 +1,11 @@
+.container {
+  border: 2px solid black;
+  margin: 0 3rem;
+  padding: 15px;
+}
+
+.user {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 0.5rem;
+  margin: 5px 15px;
+}
