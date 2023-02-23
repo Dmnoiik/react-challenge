@@ -4,7 +4,7 @@ const UserError = (props) => {
   };
   return (
     <div>
-      <p>ERROR, INVALID INPUT</p>
+      <p>{props.error}</p>
       <button onClick={clickHandler}>Click</button>
     </div>
   );
