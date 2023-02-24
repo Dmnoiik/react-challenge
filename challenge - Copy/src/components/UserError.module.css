@@ -1,0 +1,39 @@
+.error-container {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  max-width: 672px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+  /* backdrop-filter: blur(50px); */
+}
+
+.error-heading {
+  background-color: green;
+  padding: 1rem;
+  margin: 0;
+  color: #fff;
+}
+
+.error-container_text {
+  padding: 10px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.error-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  font-family: inherit;
+  border-radius: 10px;
+
+  cursor: pointer;
+}

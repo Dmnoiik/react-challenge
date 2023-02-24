@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import style from "../User.module.css";
-
 const Form = (props) => {
   const [newUsername, setNewUsername] = useState("");
-  const [newAge, setNewAge] = useState();
+  const [newAge, setNewAge] = useState("");
 
   const usernameHandler = (event) => {
     setNewUsername(event.target.value);

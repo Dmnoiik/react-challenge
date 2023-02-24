@@ -4,6 +4,7 @@
   width: 90%;
   max-width: 40rem;
   background: #fff;
+  border-radius: 10px;
 }
 
 .input label {
